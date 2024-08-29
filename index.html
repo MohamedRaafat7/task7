@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .div1{
+      width: 250px;
+      height:350px;
+      background-color: rgb(206, 207, 207);
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      border: none;
+      align-items: center;
+      padding: 2rem 0rem;
+      gap: 2rem;
+    }
+    .div2{
+      width: 70%;
+      height: 50%;
+      background-color: rgb(117, 116, 116);
+      border-radius: 5px;
+      border: none;
+      padding: 1rem ;
+      
+    }
+    .d{
+      display: flex;
+      gap: 2rem;
+    }
+button{
+  border-radius: 5px;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+ 
+
+  <div class="div1">
+<div class="div2"> <p id="status">Status: Closed</p>
+  <p id="speed">Speed: 0</p>
+  <p id="temperature">Temperature: 16</p></div>
+<button onclick="openN() ">on/off</button>
+ 
+ <div class="d"> <button onclick="speeed()">+speed</button>
+ 
+  <button onclick="d_speeed ()">-speed</button></div>
+  <div class="d"> <button onclick="temprutuure ()">+temprutuure</button>
+    <button onclick="d_temprutuure ()">-temprutuure</button></div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
